@@ -1,5 +1,6 @@
 import "./NavbarStyles.css"
 import React from 'react'
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
         <Link to="/">
         <h1>Portfolio</h1>
         </Link>
-        <ul>
+        <ul className="nav-menu">
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -22,6 +23,9 @@ const NavBar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
+        <div className="Hamburger">
+            <FaBars size={20} style={{color: "white"}} />
+        </div>
     </div>
   );
 };
