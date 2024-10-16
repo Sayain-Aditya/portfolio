@@ -7,9 +7,6 @@ import { Link } from "react-router-dom";
 const Heroimg = () => {
   return (
     <div className="hero">
-     <div className="mask">
-        <img className="into-img" src={Background} alt="back">
-        </img>
         <div className="content">
             <p>HI, I AM FREELANCER.</p>
             <h1>React Developer.</h1>
@@ -23,9 +20,11 @@ const Heroimg = () => {
                     Contact                   
                 </Link>
             </div>
+            <div className="mask">
+              <img className="bg-img" src={Background} />
+            </div>
         </div>
      </div>
-    </div>
   )
 }
 
