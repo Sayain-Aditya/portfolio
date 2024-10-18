@@ -25,7 +25,7 @@ ul{
  color: #3b82f6;
  border: none;
  cursor: pointer;
- border-radius: 8px;
+ border-radius: 0px;
  width: 100px;
  height: 45px;
  transition: 0.3s;
@@ -42,7 +42,7 @@ ul{
 .btn-light{
   background-color: transparent;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 0px;
   width: 100px;
   height: 45px;
   transition: 0.3s;
