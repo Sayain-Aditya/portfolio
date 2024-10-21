@@ -21,7 +21,7 @@ const Heroimg = () => {
                 </Link>
             </div>
             <div className="mask">
-              <img className="bg-img" src={Background}/>
+              <img className="bg-img" src={Background} alt="bg"/>
             </div>
         </div>
      </div>
