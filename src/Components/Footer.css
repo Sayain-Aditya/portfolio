@@ -46,5 +46,5 @@ p{
 @media screen and (max-width: 640px) {
   .footer-container {
     grid-template-columns: 1fr;
-}
+ }
 }

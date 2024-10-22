@@ -22,7 +22,7 @@ ul{
 
 .btn{
  background-color: #f3f7fe;
- color: #3b82f6;
+ color: #090a0a;
  border: none;
  cursor: pointer;
  border-radius: 0px;
@@ -34,8 +34,8 @@ ul{
 }
 
 .btn:hover{
-  background-color: #3b82f6;
-  box-shadow: 0 0 0 5px #3b83f65f;
+  background-color: #505357;
+  box-shadow: 0 0 0 5px #505357;
   color: #fff;
 }
 
@@ -51,7 +51,7 @@ ul{
 .btn-light:hover{
   background-color: #f3f7fe;
   box-shadow: 0 0 0 5px #d3d7db;
-  color: blue;
+  color: rgb(9, 9, 10);
 
 }
 
