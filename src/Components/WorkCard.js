@@ -11,7 +11,7 @@ function WorkCard() {
         <div className="project-card">
         <img src={pro1} alt="im" />
         <h2 className="project-title">
-          Project Title
+          FOODY ZONE
         </h2>
         <div className="pro-details">
           <p>This is the paragraph</p>
