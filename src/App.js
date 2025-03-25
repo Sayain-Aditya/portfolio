@@ -29,9 +29,9 @@ const App = () => {
 
   if (!loadingComplete) {
     return (
-      <div className="loading-container">
-        <div className="loading-bar" style={{ width: `${percentage}%` }}>
-          <span className="percentage-text">{percentage}%</span>
+      <div className="loader">
+        <div className="load" style={{ width: `${percentage}%` }}>
+          <span className="loader-text">{percentage}% </span>
         </div>
       </div>
     );
