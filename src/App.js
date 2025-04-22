@@ -6,11 +6,15 @@ import Projects from "./Routers/Projects";
 import About from "./Routers/About";
 import Contact from "./Routers/Contact";
 import { Route, Routes } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 const App = () => {
   const [percentage, setPercentage] = useState(0);
   const [loadingComplete, setLoadingComplete] = useState(false);
-
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   useEffect(() => {
     const interval = setInterval(() => {
       setPercentage((prev) => {

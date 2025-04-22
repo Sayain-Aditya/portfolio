@@ -1,9 +1,11 @@
 import "./NavbarStyles.css"
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+ // You can also use <link> for styles
 
 const NavBar = () => {
+   
 
     const [click, setClick] = useState(false);
     const handleclick = () => setClick(!click);
@@ -20,11 +22,11 @@ const NavBar = () => {
     window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "Header Header-bg":"Header"}>
+    <div className={color ? "Header Header-bg":"Header"} data-aos="fade-down">
         <Link to="/">
         <h1>Portfolio</h1>
         </Link>
-        <ul className={click ? "nav-menu active" :"nav-menu"}>
+        <ul className={click ? "nav-menu active" :"nav-menu"} >
             <li>
                 <Link to="/">Home</Link>
             </li>

@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 const Heroimg = () => {
   return (
     <div className="hero">
-        <div className="content">
-            <p>HI, I AM FREELANCER.</p>
+        <div className="content" >
+            <p><b>HI, I AM FREELANCER.</b></p>
             <h1>React Developer.</h1>
-            <div>
+            <div data-aos="fade-up">
                 <Link to="/project"
                 className="btn">
                     Projects                   

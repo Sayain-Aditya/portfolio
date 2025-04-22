@@ -25,12 +25,13 @@ ul{
  color: #090a0a;
  border: none;
  cursor: pointer;
- border-radius: 0px;
+ border-radius: 5px;
  width: 100px;
  height: 45px;
  transition: 0.3s;
- font-size: 30px;
- margin-right: 20PX;
+ font-size: 20px;
+ margin-right: 20px;
+ padding: 10px 20px;
 }
 
 .btn:hover{
@@ -42,11 +43,13 @@ ul{
 .btn-light{
   background-color: transparent;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 5px;
   width: 100px;
   height: 45px;
   transition: 0.3s;
-  font-size: 30px;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
 }
 .btn-light:hover{
   background-color: #f3f7fe;
